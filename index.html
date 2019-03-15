@@ -15,6 +15,28 @@
 
   
 <style>
+	
+	/*Floating Back-To-Top Button*/
+    #myBtn {
+        position: fixed;
+        bottom: 10px;
+        float: right;
+        right: 18.5%;
+        left: 77.25%;
+        max-width: 30px;
+        width: 100%;
+        font-size: 12px;
+        border-color: rgba(85, 85, 85, 0.2);
+        background-color: rgb(100,100,100);
+        padding: .5px;
+        border-radius: 4px;
+
+    }
+/*On Hover Color Change*/
+    #myBtn:hover {
+        background-color: #7dbbf1;
+    }
+	
   .nav-header img {
   float: left;
   width: 175px;
@@ -201,7 +223,7 @@
     <div class="container-siema__next"><div class="alux-arrow">next</div></div>
   </div>
 
-  <div class="arrow_box" style="padding: 10px;">
+  <div class="arrow_box" style="padding: 10px;" id="top">
     <p></p>
     <h5 class="text-center" style="color:white;">
        Inilah saatnya Anda menjadi pemain, bukan sebagai penonton kesuksesan orang lain. Karena Anda pun bisa sukses! <br/>
@@ -858,6 +880,8 @@ Selanjutnya, setelah registrasi berhasil silahkan KONFIRMASI DULU untuk UPGRADE 
   <div class="text-center">
    <p><u>©2019</u></p>
   </div>
+	
+	<button id="myBtn"><a href="#top" style="color: white">Top</a></button>
 
 </body>
 </html>
